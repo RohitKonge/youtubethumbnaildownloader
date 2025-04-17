@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube thumbnail Image View and Download</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none; color: inherit;"><h1>Download Youtube Thumbnail</h1></a>
+        <nav>
+            <ul>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="description">
+                <p>Download youtube thumbnail images of all quality for free.</p>
+                <p>This application let you download thumbnails of all quality. Just paste the URL of the thumbnail video in the below input and click Get Thumbnail Image</p>
+            </div>
+
+            <div class="input-section">
+                <input type="text" id="youtubeUrl" placeholder="Enter the youtube URL here">
+                <button id="getThumbnailBtn">Get Thumbnail Images</button>
+            </div>
+
+            <div id="results" class="hidden">
+                <div class="thumbnail-section">
+                    <h2>HD Image (1280x720)</h2>
+                    <div class="thumbnail-container">
+                        <img id="hdImage" src="" alt="HD Thumbnail">
+                        <a id="hdDownload" href="#" class="download-btn">Download HD Thumbnail Image</a>
+                    </div>
+                </div>
+
+                <div class="thumbnail-section">
+                    <h2>SD Image (640x480)</h2>
+                    <div class="thumbnail-container">
+                        <img id="sdImage" src="" alt="SD Thumbnail">
+                        <a id="sdDownload" href="#" class="download-btn">Download SD Thumbnail Image</a>
+                    </div>
+                </div>
+
+                <div class="thumbnail-section">
+                    <h2>Normal Image (480x360)</h2>
+                    <div class="thumbnail-container">
+                        <img id="normalImage1" src="" alt="Normal Thumbnail 480x360">
+                        <a id="normalDownload1" href="#" class="download-btn">Download Normal Thumbnail Image(480x360)</a>
+                    </div>
+                </div>
+
+                <div class="thumbnail-section">
+                    <h2>Normal Image (320x180)</h2>
+                    <div class="thumbnail-container">
+                        <img id="normalImage2" src="" alt="Normal Thumbnail 320x180">
+                        <a id="normalDownload2" href="#" class="download-btn">Download Normal Thumbnail Image(320x180)</a>
+                    </div>
+                </div>
+
+                <div class="thumbnail-section">
+                    <h2>Normal Image (120x90)</h2>
+                    <div class="thumbnail-container">
+                        <img id="normalImage3" src="" alt="Normal Thumbnail 120x90">
+                        <a id="normalDownload3" href="#" class="download-btn">Download Normal Thumbnail Image(120x90)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2011 YouTube Thumbnail Downloader</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
