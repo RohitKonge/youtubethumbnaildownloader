@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://yt-thumbnail-grabber.site/sitemap.xml
+
+# Allow all bots to crawl all content
+Disallow:
